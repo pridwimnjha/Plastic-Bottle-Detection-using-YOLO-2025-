@@ -17,20 +17,21 @@ The notebook includes **dataset cleaning, preprocessing, training, and inference
 
 ## Project Structure
 plastic-bottle-detection/
-├── BOTTLEDETECTION.ipynb # Main notebook
+├── BOTTLEDETECTION.ipynb    # Main notebook (Colab/Jupyter)
 ├── data/
-│ ├── images/ # Training/testing images
-│ └── annotations/ # Bounding-box labels (XML / TXT)
-├── checkpoints/ # Saved model weights
-├── outputs/ # Inference results (images with boxes)
+│   ├── images/              # Training/testing images
+│   └── annotations/         # Bounding-box labels (XML / TXT)
+├── checkpoints/             # Saved model weights
+├── outputs/                 # Inference results (images with boxes)
 ├── requirements.txt
-├── train.py # (Optional) Training script
-├── inference.py # (Optional) Inference script
+├── train.py                 # (Optional) Training script
+├── inference.py             # (Optional) Inference script
 └── README.md
 
 ## Dataset
 This project uses a custom dataset containing images of plastic bottles.
 Each image has corresponding annotation files (YOLO TXT / PASCAL VOC XML) with bounding-box coordinates.
+
 
 data/
 ├── images/
@@ -41,7 +42,7 @@ data/
     ├── image1.xml / txt
     ├── image2.xml / txt
     └── ...
-
+    
 ## Technologies Used
 Python
 OpenCV (cv2)
